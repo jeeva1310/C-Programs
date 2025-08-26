@@ -7,6 +7,7 @@ void main(){
 	printf("Enter another number: ");
 	scanf("%d",&number2);
 	division = number1 / number2;
-	printf("division of the given number is: %f.",division);
+	printf("division of the given number is: %.2f.",division);
 
 }
+
